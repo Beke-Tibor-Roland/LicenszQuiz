@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="hu">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Licensz Quiz</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <main class="app-shell">
+      <section class="quiz-panel" aria-live="polite">
+        <header class="topbar">
+          <div>
+            <p class="eyebrow">Licensz felkészülés</p>
+            <h1>Quiz gyakorló</h1>
+          </div>
+          <button class="ghost-button" id="restartButton" type="button">Új quiz</button>
+        </header>
+
+        <div class="start-view" id="startView">
+          <div class="start-copy">
+            <p class="stat-label">Kérdések száma</p>
+            <strong id="questionTotal">120</strong>
+          </div>
+          <button class="primary-button" id="startButton" type="button">Indítás</button>
+        </div>
+
+        <div class="quiz-view hidden" id="quizView">
+          <div class="status-row">
+            <span id="counter">1 / 120</span>
+            <span id="score">Pontszám: 0</span>
+          </div>
+
+          <div class="progress-track" aria-hidden="true">
+            <div class="progress-fill" id="progressFill"></div>
+          </div>
+
+          <article class="question-card">
+            <div class="question-meta">
+              <span id="tetelLabel">1. tétel</span>
+              <span id="pageLabel">PDF oldal: 1</span>
+            </div>
+            <div class="question-text" id="questionText"></div>
+            <div class="answers" id="answers"></div>
+          </article>
+
+          <div class="feedback hidden" id="feedback"></div>
+
+          <div class="actions">
+            <button class="primary-button hidden" id="nextButton" type="button">Következő</button>
+          </div>
+        </div>
+
+        <div class="result-view hidden" id="resultView">
+          <p class="eyebrow">Eredmény</p>
+          <h2 id="resultTitle"></h2>
+          <p id="resultDetails"></p>
+          <button class="primary-button" id="againButton" type="button">Újra próbálom</button>
+        </div>
+      </section>
+    </main>
+
+    <script src="questions.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
