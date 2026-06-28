@@ -14,15 +14,33 @@
             <p class="eyebrow">Licensz felkészülés</p>
             <h1>Quiz gyakorló</h1>
           </div>
-          <button class="ghost-button" id="restartButton" type="button">Új quiz</button>
+          <div class="header-actions">
+            <label class="theme-switch" for="themeToggle">
+              <input id="themeToggle" type="checkbox">
+              <span class="switch-track" aria-hidden="true">
+                <span class="switch-thumb"></span>
+              </span>
+              <span class="theme-switch-text">Éjszakai mód</span>
+            </label>
+            <button class="ghost-button" id="restartButton" type="button">Új quiz</button>
+          </div>
         </header>
 
         <div class="start-view" id="startView">
           <div class="start-copy">
-            <p class="stat-label">Kérdések száma</p>
-            <strong id="questionTotal">120</strong>
+            <p class="stat-label">Válassz gyakorlást</p>
+            <strong id="questionTotal">0</strong>
           </div>
-          <button class="primary-button" id="startButton" type="button">Indítás</button>
+          <div class="mode-actions">
+            <button class="primary-button mode-button" id="pdfModeButton" type="button">
+              <span>PDF kérdések</span>
+              <small id="pdfQuestionCount">0 kérdés</small>
+            </button>
+            <button class="ghost-button mode-button" id="generatedModeButton" type="button">
+              <span>Generált kérdések</span>
+              <small id="generatedQuestionCount">0 kérdés</small>
+            </button>
+          </div>
         </div>
 
         <div class="quiz-view hidden" id="quizView">
@@ -61,6 +79,7 @@
     </main>
 
     <script src="questions.js"></script>
+    <script src="generated_questions.js"></script>
     <script src="app.js"></script>
   </body>
 </html>

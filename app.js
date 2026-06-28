@@ -1,11 +1,16 @@
 (function () {
-  const allQuestions = Array.isArray(window.QUIZ_QUESTIONS) ? window.QUIZ_QUESTIONS : [];
+  const pdfQuestions = Array.isArray(window.QUIZ_QUESTIONS) ? window.QUIZ_QUESTIONS : [];
+  const generatedQuestions = Array.isArray(window.GENERATED_QUESTIONS) ? window.GENERATED_QUESTIONS : [];
 
   const startView = document.querySelector("#startView");
   const quizView = document.querySelector("#quizView");
   const resultView = document.querySelector("#resultView");
   const questionTotal = document.querySelector("#questionTotal");
-  const startButton = document.querySelector("#startButton");
+  const pdfModeButton = document.querySelector("#pdfModeButton");
+  const generatedModeButton = document.querySelector("#generatedModeButton");
+  const pdfQuestionCount = document.querySelector("#pdfQuestionCount");
+  const generatedQuestionCount = document.querySelector("#generatedQuestionCount");
+  const themeToggle = document.querySelector("#themeToggle");
   const restartButton = document.querySelector("#restartButton");
   const againButton = document.querySelector("#againButton");
   const nextButton = document.querySelector("#nextButton");
@@ -21,12 +26,41 @@
   const resultDetails = document.querySelector("#resultDetails");
 
   let questions = [];
+  let activeQuestions = pdfQuestions;
+  let activeMode = "pdf";
   let currentIndex = 0;
   let correctCount = 0;
   let answered = false;
   const forcedQuestionId = new URLSearchParams(window.location.search).get("question");
 
-  questionTotal.textContent = String(allQuestions.length);
+  questionTotal.textContent = "2";
+  pdfQuestionCount.textContent = `${pdfQuestions.length} kérdés`;
+  generatedQuestionCount.textContent = `${generatedQuestions.length} kérdés`;
+
+  function loadSavedTheme() {
+    try {
+      return localStorage.getItem("quizTheme");
+    } catch (error) {
+      return null;
+    }
+  }
+
+  function saveTheme(theme) {
+    try {
+      localStorage.setItem("quizTheme", theme);
+    } catch (error) {
+      // A tema ettol meg mukodik, csak nem marad mentve.
+    }
+  }
+
+  function setTheme(theme) {
+    const isDark = theme === "dark";
+    document.documentElement.dataset.theme = isDark ? "dark" : "light";
+    themeToggle.checked = isDark;
+    saveTheme(isDark ? "dark" : "light");
+  }
+
+  setTheme(loadSavedTheme() === "dark" ? "dark" : "light");
 
   function shuffle(items) {
     const copy = [...items];
@@ -42,8 +76,10 @@
     view.classList.remove("hidden");
   }
 
-  function startQuiz() {
-    const shuffledQuestions = shuffle(allQuestions);
+  function startQuiz(mode = activeMode) {
+    activeMode = mode;
+    activeQuestions = activeMode === "generated" ? generatedQuestions : pdfQuestions;
+    const shuffledQuestions = shuffle(activeQuestions);
     if (forcedQuestionId) {
       const forcedIndex = shuffledQuestions.findIndex((question) => question.id === forcedQuestionId);
       if (forcedIndex > 0) {
@@ -172,8 +208,8 @@
     counter.textContent = `${currentIndex + 1} / ${questions.length}`;
     score.textContent = `Pontszám: ${correctCount}`;
     progressFill.style.width = `${(currentIndex / questions.length) * 100}%`;
-    tetelLabel.textContent = `${question.tetel}. tétel`;
-    pageLabel.textContent = `PDF oldal: ${question.sourcePages.join(", ")}`;
+    tetelLabel.textContent = question.sourceTitle || `${question.tetel}. tétel`;
+    pageLabel.textContent = question.sourceDetail || `PDF oldal: ${question.sourcePages.join(", ")}`;
     renderQuestionText(question);
 
     question.shuffledOptions.forEach((option) => {
@@ -239,9 +275,11 @@
     showOnly(resultView);
   }
 
-  startButton.addEventListener("click", startQuiz);
-  restartButton.addEventListener("click", startQuiz);
-  againButton.addEventListener("click", startQuiz);
+  pdfModeButton.addEventListener("click", () => startQuiz("pdf"));
+  generatedModeButton.addEventListener("click", () => startQuiz("generated"));
+  themeToggle.addEventListener("change", () => setTheme(themeToggle.checked ? "dark" : "light"));
+  restartButton.addEventListener("click", () => startQuiz(activeMode));
+  againButton.addEventListener("click", () => startQuiz(activeMode));
   nextButton.addEventListener("click", goNext);
 
   document.addEventListener("keydown", (event) => {
