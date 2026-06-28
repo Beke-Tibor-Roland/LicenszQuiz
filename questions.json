@@ -96,52 +96,6 @@
     ]
   },
   {
-    "id": "t1-q3",
-    "tetel": 1,
-    "number": 3,
-    "question": "Miért káros az állományok töredezettsége?",
-    "options": [
-      {
-        "id": "a",
-        "text": "Mert ilyen esetben csak két partició határozható meg.",
-        "lines": [
-          "Mert ilyen esetben csak két partició határozható meg."
-        ]
-      },
-      {
-        "id": "b",
-        "text": "Mert a töredékesen, a lemezen szétszorva elhelyezkedő állományok a rendszer többszöri újraindulásához vezethet.",
-        "lines": [
-          "Mert a töredékesen, a lemezen szétszorva elhelyezkedő állományok a rendszer többszöri",
-          "újraindulásához vezethet."
-        ]
-      },
-      {
-        "id": "c",
-        "text": "Mert a töredékesen, a lemezen szétszorva elhelyezkedő állományok csökkentik a rendszer teljesítményét.",
-        "lines": [
-          "Mert a töredékesen, a lemezen szétszorva elhelyezkedő állományok csökkentik a rendszer",
-          "teljesítményét."
-        ]
-      },
-      {
-        "id": "d",
-        "text": "Mert a töredékesen, a lemezen szétszorva elhelyezkedő állományok a rendszer többszöri leállásához vezethet.",
-        "lines": [
-          "Mert a töredékesen, a lemezen szétszorva elhelyezkedő állományok a rendszer többszöri",
-          "leállásához vezethet."
-        ]
-      }
-    ],
-    "sourcePages": [
-      1
-    ],
-    "answer": "c",
-    "questionLines": [
-      "Miért káros az állományok töredezettsége?"
-    ]
-  },
-  {
     "id": "t1-q4",
     "tetel": 1,
     "number": 4,
@@ -373,49 +327,6 @@
     ]
   },
   {
-    "id": "t2-q3",
-    "tetel": 2,
-    "number": 3,
-    "question": "Melyik több feladatos és több felhasználós operációs rendszer?",
-    "options": [
-      {
-        "id": "a",
-        "text": "Windows 8",
-        "lines": [
-          "Windows 8"
-        ]
-      },
-      {
-        "id": "b",
-        "text": "Windows Vista",
-        "lines": [
-          "Windows Vista"
-        ]
-      },
-      {
-        "id": "c",
-        "text": "Mandriva Linux",
-        "lines": [
-          "Mandriva Linux"
-        ]
-      },
-      {
-        "id": "d",
-        "text": "Windows 10",
-        "lines": [
-          "Windows 10"
-        ]
-      }
-    ],
-    "sourcePages": [
-      3
-    ],
-    "answer": "c",
-    "questionLines": [
-      "Melyik több feladatos és több felhasználós operációs rendszer?"
-    ]
-  },
-  {
     "id": "t2-q4",
     "tetel": 2,
     "number": 4,
@@ -588,7 +499,7 @@
     "answer": "b",
     "figures": [
       {
-        "src": "assets/figures/t6-q1.png",
+        "src": "t6-q1.png",
         "alt": "6. tétel 1. kérdés ábrája"
       }
     ],
@@ -637,50 +548,6 @@
     "answer": "a",
     "questionLines": [
       "Melyik hamis állítás?"
-    ]
-  },
-  {
-    "id": "t6-q3",
-    "tetel": 6,
-    "number": 3,
-    "question": "A hálózati réteg feladata az ISO/OSI modellben:",
-    "options": [
-      {
-        "id": "a",
-        "text": "az útvonalválasztás a forrás és célállomás között.",
-        "lines": [
-          "az útvonalválasztás a forrás és célállomás között."
-        ]
-      },
-      {
-        "id": "b",
-        "text": "hogy megbízható adatátvitelt valósítson meg két hoszt között.",
-        "lines": [
-          "hogy megbízható adatátvitelt valósítson meg két hoszt között."
-        ]
-      },
-      {
-        "id": "c",
-        "text": "biztosítani azokat a funkciókat és eljárásokat, amelyek lehetővé teszik az adatok átvitelét két hálózati elem között.",
-        "lines": [
-          "biztosítani azokat a funkciókat és eljárásokat, amelyek lehetővé teszik az adatok",
-          "átvitelét két hálózati elem között."
-        ]
-      },
-      {
-        "id": "d",
-        "text": "hogy statikus címeket határozzon meg.",
-        "lines": [
-          "hogy statikus címeket határozzon meg."
-        ]
-      }
-    ],
-    "sourcePages": [
-      6
-    ],
-    "answer": "a",
-    "questionLines": [
-      "A hálózati réteg feladata az ISO/OSI modellben:"
     ]
   },
   {
@@ -856,7 +723,7 @@
     "answer": "d",
     "figures": [
       {
-        "src": "assets/figures/t7-q1.png",
+        "src": "t7-q1.png",
         "alt": "7. tétel 1. kérdés ábrája"
       }
     ],
@@ -908,49 +775,6 @@
     "answer": "b",
     "questionLines": [
       "UML 2-ben strukturális diagram:"
-    ]
-  },
-  {
-    "id": "t7-q3",
-    "tetel": 7,
-    "number": 3,
-    "question": "Minek a rövidítése hálózatok szempontjából a MAN?",
-    "options": [
-      {
-        "id": "a",
-        "text": "Metropolitan Area Network",
-        "lines": [
-          "Metropolitan Area Network"
-        ]
-      },
-      {
-        "id": "b",
-        "text": "Metro Area Network",
-        "lines": [
-          "Metro Area Network"
-        ]
-      },
-      {
-        "id": "c",
-        "text": "Metropolitan Aspect Network",
-        "lines": [
-          "Metropolitan Aspect Network"
-        ]
-      },
-      {
-        "id": "d",
-        "text": "Metropolitan Aktor Network",
-        "lines": [
-          "Metropolitan Aktor Network"
-        ]
-      }
-    ],
-    "sourcePages": [
-      8
-    ],
-    "answer": "a",
-    "questionLines": [
-      "Minek a rövidítése hálózatok szempontjából a MAN?"
     ]
   },
   {
@@ -1126,7 +950,7 @@
     "answer": "b",
     "figures": [
       {
-        "src": "assets/figures/t8-q1.png",
+        "src": "t8-q1.png",
         "alt": "8. tétel 1. kérdés ábrája"
       }
     ],
@@ -1176,50 +1000,6 @@
     "answer": "b",
     "questionLines": [
       "UML 2-ben strukturális diagram:"
-    ]
-  },
-  {
-    "id": "t8-q3",
-    "tetel": 8,
-    "number": 3,
-    "question": "Minek a rövidítése hálózatok szempontjából a WAN?",
-    "options": [
-      {
-        "id": "a",
-        "text": "Wide Area Network",
-        "lines": [
-          "Wide Area Network"
-        ]
-      },
-      {
-        "id": "b",
-        "text": "Wide Aspect Networks",
-        "lines": [
-          "Wide Aspect Networks"
-        ]
-      },
-      {
-        "id": "c",
-        "text": "Wide Aspect Network",
-        "lines": [
-          "Wide Aspect Network"
-        ]
-      },
-      {
-        "id": "d",
-        "text": "Wide Aktor Network",
-        "lines": [
-          "Wide Aktor Network"
-        ]
-      }
-    ],
-    "sourcePages": [
-      9,
-      10
-    ],
-    "answer": "a",
-    "questionLines": [
-      "Minek a rövidítése hálózatok szempontjából a WAN?"
     ]
   },
   {
@@ -1396,7 +1176,7 @@
     "answer": "c",
     "figures": [
       {
-        "src": "assets/figures/t9-q1.png",
+        "src": "t9-q1.png",
         "alt": "9. tétel 1. kérdés ábrája"
       }
     ],
@@ -1445,50 +1225,6 @@
     "answer": "b",
     "questionLines": [
       "UML 2-ben strukturális diagram:"
-    ]
-  },
-  {
-    "id": "t9-q3",
-    "tetel": 9,
-    "number": 3,
-    "question": "Minek a rövidítése hálózatok szempontjából a LAN?",
-    "options": [
-      {
-        "id": "a",
-        "text": "Local Area Network",
-        "lines": [
-          "Local Area Network"
-        ]
-      },
-      {
-        "id": "b",
-        "text": "Local Aspect Networks",
-        "lines": [
-          "Local Aspect Networks"
-        ]
-      },
-      {
-        "id": "c",
-        "text": "Local Aspect Network",
-        "lines": [
-          "Local Aspect Network"
-        ]
-      },
-      {
-        "id": "d",
-        "text": "Local Aktor Network",
-        "lines": [
-          "Local Aktor Network"
-        ]
-      }
-    ],
-    "sourcePages": [
-      11,
-      12
-    ],
-    "answer": "a",
-    "questionLines": [
-      "Minek a rövidítése hálózatok szempontjából a LAN?"
     ]
   },
   {
@@ -1722,49 +1458,6 @@
     "answer": "c",
     "questionLines": [
       "UML 2-ben interakciós diagram:"
-    ]
-  },
-  {
-    "id": "t12-q3",
-    "tetel": 12,
-    "number": 3,
-    "question": "Az ISO/OSI modellben:",
-    "options": [
-      {
-        "id": "a",
-        "text": "az adatkapcsolati réteg két alrétegből áll.",
-        "lines": [
-          "az adatkapcsolati réteg két alrétegből áll."
-        ]
-      },
-      {
-        "id": "b",
-        "text": "az adatkapcsolati réteg négy alrétegből áll.",
-        "lines": [
-          "az adatkapcsolati réteg négy alrétegből áll."
-        ]
-      },
-      {
-        "id": "c",
-        "text": "az adatkapcsolati réteg hat alrétegből áll.",
-        "lines": [
-          "az adatkapcsolati réteg hat alrétegből áll."
-        ]
-      },
-      {
-        "id": "d",
-        "text": "az adatkapcsolati réteg nyolc alrétegből áll.",
-        "lines": [
-          "az adatkapcsolati réteg nyolc alrétegből áll."
-        ]
-      }
-    ],
-    "sourcePages": [
-      13
-    ],
-    "answer": "a",
-    "questionLines": [
-      "Az ISO/OSI modellben:"
     ]
   },
   {
@@ -2005,50 +1698,6 @@
     "answer": "c",
     "questionLines": [
       "UML 2-ben interakciós diagram:"
-    ]
-  },
-  {
-    "id": "t14-q3",
-    "tetel": 14,
-    "number": 3,
-    "question": "Az UDP hálózati szempontból:",
-    "options": [
-      {
-        "id": "a",
-        "text": "kapcsolatmentes szállítási protokoll",
-        "lines": [
-          "kapcsolatmentes szállítási protokoll"
-        ]
-      },
-      {
-        "id": "b",
-        "text": "kapcsolatorientált szállítási protokoll",
-        "lines": [
-          "kapcsolatorientált szállítási protokoll"
-        ]
-      },
-      {
-        "id": "c",
-        "text": "kapcsolatmentes és a HTTP esetén kapcsolatorientált szállítási protokoll",
-        "lines": [
-          "kapcsolatmentes és a HTTP esetén kapcsolatorientált szállítási protokoll"
-        ]
-      },
-      {
-        "id": "d",
-        "text": "kapcsolatmentes és a HTTPS esetén kapcsolatorientált szállítási protokoll",
-        "lines": [
-          "kapcsolatmentes és a HTTPS esetén kapcsolatorientált szállítási protokoll"
-        ]
-      }
-    ],
-    "sourcePages": [
-      15,
-      16
-    ],
-    "answer": "a",
-    "questionLines": [
-      "Az UDP hálózati szempontból:"
     ]
   },
   {
@@ -2297,49 +1946,6 @@
     "answer": "d",
     "questionLines": [
       "A belső struktúradiagram (composite structure diagram):"
-    ]
-  },
-  {
-    "id": "t15-q3",
-    "tetel": 15,
-    "number": 3,
-    "question": "Kiegészítő protokoll (hálózati szempontból):",
-    "options": [
-      {
-        "id": "a",
-        "text": "ICMP",
-        "lines": [
-          "ICMP"
-        ]
-      },
-      {
-        "id": "b",
-        "text": "TCP",
-        "lines": [
-          "TCP"
-        ]
-      },
-      {
-        "id": "c",
-        "text": "UDP",
-        "lines": [
-          "UDP"
-        ]
-      },
-      {
-        "id": "d",
-        "text": "IP",
-        "lines": [
-          "IP"
-        ]
-      }
-    ],
-    "sourcePages": [
-      18
-    ],
-    "answer": "a",
-    "questionLines": [
-      "Kiegészítő protokoll (hálózati szempontból):"
     ]
   },
   {
@@ -2592,49 +2198,6 @@
     ]
   },
   {
-    "id": "t16-q3",
-    "tetel": 16,
-    "number": 3,
-    "question": "Az IP protokoll:",
-    "options": [
-      {
-        "id": "a",
-        "text": "8 bites hálózati címeket határoz meg",
-        "lines": [
-          "8 bites hálózati címeket határoz meg"
-        ]
-      },
-      {
-        "id": "b",
-        "text": "32 bites hálózati címeket határoz meg",
-        "lines": [
-          "32 bites hálózati címeket határoz meg"
-        ]
-      },
-      {
-        "id": "c",
-        "text": "16 bites hálózati címeket határoz meg",
-        "lines": [
-          "16 bites hálózati címeket határoz meg"
-        ]
-      },
-      {
-        "id": "d",
-        "text": "64 bites hálózati címeket határoz meg",
-        "lines": [
-          "64 bites hálózati címeket határoz meg"
-        ]
-      }
-    ],
-    "sourcePages": [
-      20
-    ],
-    "answer": "b",
-    "questionLines": [
-      "Az IP protokoll:"
-    ]
-  },
-  {
     "id": "t16-q4",
     "tetel": 16,
     "number": 4,
@@ -2875,49 +2438,6 @@
     ]
   },
   {
-    "id": "t18-q3",
-    "tetel": 18,
-    "number": 3,
-    "question": "Minek az rövidítése az ARP (protokoll)?",
-    "options": [
-      {
-        "id": "a",
-        "text": "Address Remove Protocol",
-        "lines": [
-          "Address Remove Protocol"
-        ]
-      },
-      {
-        "id": "b",
-        "text": "Address Reverse Protocol",
-        "lines": [
-          "Address Reverse Protocol"
-        ]
-      },
-      {
-        "id": "c",
-        "text": "Address Resolution Protocol",
-        "lines": [
-          "Address Resolution Protocol"
-        ]
-      },
-      {
-        "id": "d",
-        "text": "Address Reset Protocol",
-        "lines": [
-          "Address Reset Protocol"
-        ]
-      }
-    ],
-    "sourcePages": [
-      21
-    ],
-    "answer": "c",
-    "questionLines": [
-      "Minek az rövidítése az ARP (protokoll)?"
-    ]
-  },
-  {
     "id": "t18-q4",
     "tetel": 18,
     "number": 4,
@@ -3153,49 +2673,6 @@
     ]
   },
   {
-    "id": "t19-q3",
-    "tetel": 19,
-    "number": 3,
-    "question": "Minek a rövidítése a ICMP (protokoll)?",
-    "options": [
-      {
-        "id": "a",
-        "text": "Internet Connection Message Protocol",
-        "lines": [
-          "Internet Connection Message Protocol"
-        ]
-      },
-      {
-        "id": "b",
-        "text": "Internet Control Message Protocol",
-        "lines": [
-          "Internet Control Message Protocol"
-        ]
-      },
-      {
-        "id": "c",
-        "text": "Internet Communication Message Protocol",
-        "lines": [
-          "Internet Communication Message Protocol"
-        ]
-      },
-      {
-        "id": "d",
-        "text": "Intranet Connection Message Protocol",
-        "lines": [
-          "Intranet Connection Message Protocol"
-        ]
-      }
-    ],
-    "sourcePages": [
-      23
-    ],
-    "answer": "b",
-    "questionLines": [
-      "Minek a rövidítése a ICMP (protokoll)?"
-    ]
-  },
-  {
     "id": "t19-q4",
     "tetel": 19,
     "number": 4,
@@ -3277,52 +2754,6 @@
         "lines": [
           "Javaban az aktuális objektum bármelyik tagja hivatkozható egy konstruktorból a this",
           "használatával."
-        ]
-      }
-    ],
-    "sourcePages": [
-      24
-    ],
-    "answer": "b",
-    "questionLines": [
-      "Melyik állítás nem igaz:"
-    ]
-  },
-  {
-    "id": "t19-q6",
-    "tetel": 19,
-    "number": 6,
-    "question": "Melyik állítás nem igaz:",
-    "options": [
-      {
-        "id": "a",
-        "text": "A HTTP (HyperText Transfer Protocol) egy információátviteli protokoll a világhálón.",
-        "lines": [
-          "A HTTP (HyperText Transfer Protocol) egy információátviteli protokoll a világhálón."
-        ]
-      },
-      {
-        "id": "b",
-        "text": "A HTTP egy kérés-válasz alapú protokoll kliensek és szerverek között. A kommunikációt mindig a szerver kezdeményezi.",
-        "lines": [
-          "A HTTP egy kérés-válasz alapú protokoll kliensek és szerverek között. A kommunikációt",
-          "mindig a szerver kezdeményezi."
-        ]
-      },
-      {
-        "id": "c",
-        "text": "A HTTP eredeti célja a HTML lapok publikálása és fogadása volt, nem arra készült, hogy felhasználók jelentkezzenek be rajta keresztül szerverekre és ott munkamenetet (session-t) indítsanak.",
-        "lines": [
-          "A HTTP eredeti célja a HTML lapok publikálása és fogadása volt, nem arra készült, hogy",
-          "felhasználók jelentkezzenek be rajta keresztül szerverekre és ott munkamenetet (session-t)",
-          "indítsanak."
-        ]
-      },
-      {
-        "id": "d",
-        "text": "A HTTP egy állapot nélküli protokoll.",
-        "lines": [
-          "A HTTP egy állapot nélküli protokoll."
         ]
       }
     ],
@@ -3428,55 +2859,12 @@
     "answer": "b",
     "figures": [
       {
-        "src": "assets/figures/t20-q2.png",
+        "src": "t20-q2.png",
         "alt": "20. tétel 2. kérdés ábrája"
       }
     ],
     "questionLines": [
       "A következő use case diagramról hiányzó sztereotípia:"
-    ]
-  },
-  {
-    "id": "t20-q3",
-    "tetel": 20,
-    "number": 3,
-    "question": "Minek a rövidítése a IGMP (protokoll)?",
-    "options": [
-      {
-        "id": "a",
-        "text": "Internet Group Management Protocol",
-        "lines": [
-          "Internet Group Management Protocol"
-        ]
-      },
-      {
-        "id": "b",
-        "text": "Internet Gateway Management Protocol",
-        "lines": [
-          "Internet Gateway Management Protocol"
-        ]
-      },
-      {
-        "id": "c",
-        "text": "Internet Group Missing Protocol",
-        "lines": [
-          "Internet Group Missing Protocol"
-        ]
-      },
-      {
-        "id": "d",
-        "text": "Internet Gateway Missing Protocol",
-        "lines": [
-          "Internet Gateway Missing Protocol"
-        ]
-      }
-    ],
-    "sourcePages": [
-      26
-    ],
-    "answer": "a",
-    "questionLines": [
-      "Minek a rövidítése a IGMP (protokoll)?"
     ]
   },
   {
@@ -3573,50 +2961,6 @@
     ]
   },
   {
-    "id": "t20-q6",
-    "tetel": 20,
-    "number": 6,
-    "question": "Melyik állítás nem igaz:",
-    "options": [
-      {
-        "id": "e",
-        "text": "A HTTP (HyperText Transfer Protocol) egy információátviteli protokoll a világhálón.",
-        "lines": [
-          "A HTTP (HyperText Transfer Protocol) egy információátviteli protokoll a világhálón."
-        ]
-      },
-      {
-        "id": "f",
-        "text": "A HTTP eredeti célja a HTML lapok publikálása és fogadása volt.",
-        "lines": [
-          "A HTTP eredeti célja a HTML lapok publikálása és fogadása volt."
-        ]
-      },
-      {
-        "id": "g",
-        "text": "A HTTP egy kérés-válasz alapú protokoll kliensek és szerverek között. A kommunikációt mindig a szerver kezdeményezi.",
-        "lines": [
-          "A HTTP egy kérés-válasz alapú protokoll kliensek és szerverek között. A kommunikációt",
-          "mindig a szerver kezdeményezi."
-        ]
-      },
-      {
-        "id": "h",
-        "text": "A HTTP általában a TCP/IP réteg felett helyezkedik el, de nem függ tőle.",
-        "lines": [
-          "A HTTP általában a TCP/IP réteg felett helyezkedik el, de nem függ tőle."
-        ]
-      }
-    ],
-    "sourcePages": [
-      26
-    ],
-    "answer": "g",
-    "questionLines": [
-      "Melyik állítás nem igaz:"
-    ]
-  },
-  {
     "id": "t23-q1",
     "tetel": 23,
     "number": 1,
@@ -3707,49 +3051,6 @@
     "answer": "c",
     "questionLines": [
       "A metódusok szintaxisa az UML osztálydiagramban:"
-    ]
-  },
-  {
-    "id": "t23-q3",
-    "tetel": 23,
-    "number": 3,
-    "question": "Minek a rövidítése az POP3 (protokoll)?",
-    "options": [
-      {
-        "id": "a",
-        "text": "Post Open Protocol 3",
-        "lines": [
-          "Post Open Protocol 3"
-        ]
-      },
-      {
-        "id": "b",
-        "text": "Popup Office Protocol 3",
-        "lines": [
-          "Popup Office Protocol 3"
-        ]
-      },
-      {
-        "id": "c",
-        "text": "Post Office Protocol 3",
-        "lines": [
-          "Post Office Protocol 3"
-        ]
-      },
-      {
-        "id": "d",
-        "text": "Popup Open Protocol 3",
-        "lines": [
-          "Popup Open Protocol 3"
-        ]
-      }
-    ],
-    "sourcePages": [
-      27
-    ],
-    "answer": "c",
-    "questionLines": [
-      "Minek a rövidítése az POP3 (protokoll)?"
     ]
   },
   {
@@ -3986,49 +3287,6 @@
     ]
   },
   {
-    "id": "t25-q3",
-    "tetel": 25,
-    "number": 3,
-    "question": "Minek a rövidítése az FTP (protokoll)?",
-    "options": [
-      {
-        "id": "a",
-        "text": "File Transport Protocol",
-        "lines": [
-          "File Transport Protocol"
-        ]
-      },
-      {
-        "id": "b",
-        "text": "File Transfer Protocol",
-        "lines": [
-          "File Transfer Protocol"
-        ]
-      },
-      {
-        "id": "c",
-        "text": "Files Transport Protocol",
-        "lines": [
-          "Files Transport Protocol"
-        ]
-      },
-      {
-        "id": "d",
-        "text": "File Transfer Proxy",
-        "lines": [
-          "File Transfer Proxy"
-        ]
-      }
-    ],
-    "sourcePages": [
-      29
-    ],
-    "answer": "b",
-    "questionLines": [
-      "Minek a rövidítése az FTP (protokoll)?"
-    ]
-  },
-  {
     "id": "t25-q4",
     "tetel": 25,
     "number": 4,
@@ -4257,49 +3515,6 @@
     "answer": "b",
     "questionLines": [
       "A szekvencia diagramban az üzenetküldés típus lehet:"
-    ]
-  },
-  {
-    "id": "t26-q3",
-    "tetel": 26,
-    "number": 3,
-    "question": "Melyik igaz állítás?",
-    "options": [
-      {
-        "id": "a",
-        "text": "Egy számítógépre csak egy operációs rendszer telepíthető.",
-        "lines": [
-          "Egy számítógépre csak egy operációs rendszer telepíthető."
-        ]
-      },
-      {
-        "id": "b",
-        "text": "Egy számítógépre több operációs rendszer is telepíthető.",
-        "lines": [
-          "Egy számítógépre több operációs rendszer is telepíthető."
-        ]
-      },
-      {
-        "id": "c",
-        "text": "Egy számítógépre csak két operációs rendszer telepíthető.",
-        "lines": [
-          "Egy számítógépre csak két operációs rendszer telepíthető."
-        ]
-      },
-      {
-        "id": "d",
-        "text": "Egy számítógépre legtöbb négy operációs rendszer telepíthető.",
-        "lines": [
-          "Egy számítógépre legtöbb négy operációs rendszer telepíthető."
-        ]
-      }
-    ],
-    "sourcePages": [
-      31
-    ],
-    "answer": "b",
-    "questionLines": [
-      "Melyik igaz állítás?"
     ]
   },
   {
@@ -4548,50 +3763,6 @@
     ]
   },
   {
-    "id": "t27-q3",
-    "tetel": 27,
-    "number": 3,
-    "question": "Nem az operációs rendszer feladata:",
-    "options": [
-      {
-        "id": "a",
-        "text": "a memóriakezelés",
-        "lines": [
-          "a memóriakezelés"
-        ]
-      },
-      {
-        "id": "b",
-        "text": "a programok optimalizálása",
-        "lines": [
-          "a programok optimalizálása"
-        ]
-      },
-      {
-        "id": "c",
-        "text": "a processzor ütemezés",
-        "lines": [
-          "a processzor ütemezés"
-        ]
-      },
-      {
-        "id": "d",
-        "text": "a programok futtatása",
-        "lines": [
-          "a programok futtatása"
-        ]
-      }
-    ],
-    "sourcePages": [
-      33,
-      34
-    ],
-    "answer": "b",
-    "questionLines": [
-      "Nem az operációs rendszer feladata:"
-    ]
-  },
-  {
     "id": "t27-q4",
     "tetel": 27,
     "number": 4,
@@ -4825,49 +3996,6 @@
     "answer": "b",
     "questionLines": [
       "Az időzítés diagram UML-ben:"
-    ]
-  },
-  {
-    "id": "t28-q3",
-    "tetel": 28,
-    "number": 3,
-    "question": "Az operációs rendszerek magjának részét képezik:",
-    "options": [
-      {
-        "id": "a",
-        "text": "a meghajtók",
-        "lines": [
-          "a meghajtók"
-        ]
-      },
-      {
-        "id": "b",
-        "text": "az alkalmazások",
-        "lines": [
-          "az alkalmazások"
-        ]
-      },
-      {
-        "id": "c",
-        "text": "a programozási környezetek",
-        "lines": [
-          "a programozási környezetek"
-        ]
-      },
-      {
-        "id": "d",
-        "text": "a kezelőfelület",
-        "lines": [
-          "a kezelőfelület"
-        ]
-      }
-    ],
-    "sourcePages": [
-      35
-    ],
-    "answer": "a",
-    "questionLines": [
-      "Az operációs rendszerek magjának részét képezik:"
     ]
   },
   {
@@ -5113,49 +4241,6 @@
     ]
   },
   {
-    "id": "t29-q3",
-    "tetel": 29,
-    "number": 3,
-    "question": "A particionált tárkezelésnek:",
-    "options": [
-      {
-        "id": "a",
-        "text": "egy változata van.",
-        "lines": [
-          "egy változata van."
-        ]
-      },
-      {
-        "id": "b",
-        "text": "négy változata van.",
-        "lines": [
-          "négy változata van."
-        ]
-      },
-      {
-        "id": "c",
-        "text": "két változata van.",
-        "lines": [
-          "két változata van."
-        ]
-      },
-      {
-        "id": "d",
-        "text": "hat változata van.",
-        "lines": [
-          "hat változata van."
-        ]
-      }
-    ],
-    "sourcePages": [
-      38
-    ],
-    "answer": "c",
-    "questionLines": [
-      "A particionált tárkezelésnek:"
-    ]
-  },
-  {
     "id": "t29-q4",
     "tetel": 29,
     "number": 4,
@@ -5382,49 +4467,6 @@
     "answer": "b",
     "questionLines": [
       "A komponensek neve elé UML-ben írhatjuk a következő sztereotípia valamelyikét:"
-    ]
-  },
-  {
-    "id": "t30-q3",
-    "tetel": 30,
-    "number": 3,
-    "question": "Az operációs rendszer betöltését angolul:",
-    "options": [
-      {
-        "id": "a",
-        "text": "booting-nak nevezzük.",
-        "lines": [
-          "booting-nak nevezzük."
-        ]
-      },
-      {
-        "id": "b",
-        "text": "loading-nak nevezzük.",
-        "lines": [
-          "loading-nak nevezzük."
-        ]
-      },
-      {
-        "id": "c",
-        "text": "bootstart-nak nevezzük.",
-        "lines": [
-          "bootstart-nak nevezzük."
-        ]
-      },
-      {
-        "id": "d",
-        "text": "bootsyatem-nek nevezzük.",
-        "lines": [
-          "bootsyatem-nek nevezzük."
-        ]
-      }
-    ],
-    "sourcePages": [
-      39
-    ],
-    "answer": "a",
-    "questionLines": [
-      "Az operációs rendszer betöltését angolul:"
     ]
   },
   {
